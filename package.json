@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "postcss-preset-env": "^8.3.0",
+    "sass": "^1.60.0"
+  },
+  "dependencies": {
+    "postcss": "^8.4.21"
+  },
+  "scripts": {
+    "sass": "sass assets/scss/app.scss assets/css/app.css -w",
+    "postcss": "postcss assets/css/app.css -o assets/css/app.css -w"
+  }
+}
